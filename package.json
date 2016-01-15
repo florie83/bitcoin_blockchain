@@ -1,0 +1,24 @@
+{
+  "name"        : "bitcoin_server",
+  "main"        : "bitcoinorder_server.js",
+  "dependencies": {
+    "express"       : "~4",
+    "body-parser"   : "~1",
+    "express-session": "*",
+    "sequelize"     : "*",
+    "session-file-store" : "*",
+    "mysql"         : "*",
+    "cookie-parser" :"*",
+    "md5"           :"*",
+    "request"       : "*",
+    "underscore"    :"*",
+    "async"    :"*"
+
+  },
+  "scripts": {
+    "start": "node bitcoinorder_server.js"
+  },
+  "version": "0.0.1",
+  "author": "lukluk",
+  "license": "ISC"
+}
